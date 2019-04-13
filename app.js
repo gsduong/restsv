@@ -31,3 +31,8 @@ router.get('/stuff', (request, response) => {
   
   response.json({message: myResponse});
 });
+
+
+app.post('/24', function (req, res) {
+  res.send('24 OK!')
+})
